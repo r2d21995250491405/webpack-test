@@ -1,0 +1,35 @@
+@import "../src/shared/styles/_index";
+
+.container {
+  position: relative;
+  height: 500px;
+  box-shadow: 3px 2px 8px 0px rgba(34, 60, 80, 0.2);
+  width: 679px;
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    color: $text_white;
+    width: 679px;
+    background-color: $bg_black;
+    height: 231px;
+    @include flexCenter();
+  }
+}
+
+@media screen and (max-width: 679px) {
+  .container {
+    position: relative;
+    height: 459px;
+    box-shadow: 3px 2px 8px 0px rgba(34, 60, 80, 0.2);
+    width: 296px;
+    .footer {
+      position: absolute;
+      bottom: 0;
+      color: $text_white;
+      width: 296px;
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+}

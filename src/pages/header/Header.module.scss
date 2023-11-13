@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  margin-left: 30px;
+
+  .container_text {
+    font-weight: lighter;
+  }
+}
+@media screen and (max-width: 679px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+}

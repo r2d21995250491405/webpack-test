@@ -1,0 +1,17 @@
+.img {
+  position: absolute;
+  right: 0;
+  bottom: 18%;
+
+  @media screen and (max-width: 679px) {
+    display: none;
+  }
+}
+
+.select {
+  @media screen and (max-width: 679px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
